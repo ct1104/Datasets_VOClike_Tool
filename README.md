@@ -5,19 +5,24 @@ This program is modified by Ting Cao, HNU, 2016.
 Em@il: caoting1104@gmail.com
 
 Your just need to install matlab
+
 --------------------------------------------------------------
 Instructions
-1、the original imagse are named with the form of 000001.jpg-999999.jpg, images belonging to the same category are continuous; 
+
+1、the original imagse are named with the form of 000001.jpg-999999.jpg, images belonging to the same category are continuous;
+
 2、modify the name、begin、end values of all categories from images in classes.mat
+
 3、open MATLAB and come into directory of ‘Annotation_tool’ using the command ‘cd ./Annotation_tool’ , then run the ‘demo.m’ 
+
 4、The program will automatically pop-up window, enter the number of objects in the picture in the matlab command line, 
    such as: 3 (enter) - > represents there are three goals in the current image
-5、the mouse will form a cross in the picture, the candidate can be calibrated target frame. After the box is a good target, you can    
-   adjust the candidate frame up and down.
-6、once you adjust the candidate box, double click the rectangle to determine the target location; and repeat (5) steps to complete a 
-   picture of all the target calibration.
-7、after calibration to complete a picture, the program will automatically generate the corresponding file, save in Annotations/, 
-   GTImages/ and Segmentation/. And automatically pop the next picture.
+   
+5、the mouse will form a cross in the picture, the candidate can be calibrated target frame. After the box is a good target,      you can adjust the candidate frame up and down.
+
+6、once you adjust the candidate box, double click the rectangle to determine the target location; and repeat (5) steps to        complete a picture of all the target calibration.
+7、after calibration to complete a picture, the program will automatically generate the corresponding file, save in               Annotations/, GTImages/ and Segmentation/. And automatically pop the next picture.
+
 8、repeat 4-7 steps to complete the calibration task of all images.
 
 使用说明:
